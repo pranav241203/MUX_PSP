@@ -11,7 +11,7 @@ void main()
  printf("\nEnter the no. of select lines(n<=4):");
  scanf("%d",&n);
  //2^n Input values for a 2^n:1 Multiplexer//
- m=pow(2,n);
+ m = pow(2,n);
  printf("\nEnter %d input values:",m);
  for(i=0;i<m;i++)
  {
@@ -23,10 +23,10 @@ void main()
  binary = b;
  while(b>0)
  {
-  rem=b%10;
+  rem = b%10;
   c = c + rem*base;
   b = b/10;
-  base=base*2;
+  base = base*2;
  }
  printf("\nThe decimal value of %d is %d",binary,c);
  //Printing the required Output//
